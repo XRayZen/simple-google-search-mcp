@@ -1,6 +1,9 @@
 # Simple Google Search MCP
 
 Model Context Protocol (MCP)準拠のGoogle検索サービス
+- Vibe Codingのお供にどうぞ！
+
+**[日本語・英語切り替え可能なドキュメントを表示する（View documentation with Japanese/English toggle）](index.html)**
 
 ## 機能
 
@@ -210,6 +213,3 @@ npm test
 
 - Google Custom Search APIには使用制限があります。詳細は[Google Custom Search APIのドキュメント](https://developers.google.com/custom-search/v1/overview)を参照してください。
 - 一部の検索オプションはGoogle Custom Search APIのプランによって利用できない場合があります。
-
-
-
