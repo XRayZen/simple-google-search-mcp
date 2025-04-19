@@ -3,7 +3,7 @@
 Model Context Protocol (MCP)準拠のGoogle検索サービス
 - Vibe Codingのお供にどうぞ！
 
-**[日本語・英語切り替え可能なドキュメントを表示する（View documentation with Japanese/English toggle）](index.html)**
+**[English version here (英語版はこちら)](README.en.md)**
 
 ## 機能
 
