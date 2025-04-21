@@ -1,7 +1,7 @@
 # Simple Google Search MCP
 
 Model Context Protocol (MCP)準拠のGoogle検索サービス
-- Vibe Codingのお供にどうぞ！
+- Vibe Coding・調べ物のお供にどうぞ！
 
 **[English version here (英語版はこちら)](README.en.md)**
 
@@ -68,19 +68,19 @@ Clineは、VS Code向けの自律型コーディングエージェントで、MC
 1. Google Search MCPサーバーをクローンして設定:
 
 ```bash
-git clone https://github.com/yourusername/google-search-mcp.git
+git clone https://github.com/your-username/google-search-mcp.git
 cd google-search-mcp
 npm install
 ```
 
-1. サーバーをビルドして起動:
+2. サーバーをビルドして起動:
 
 ```bash
 npm run build
 npm start
 ```
 
-4. Clineでの設定:
+3. Clineでの設定:
    - VS Codeを開き、Cline拡張機能が有効になっていることを確認
    - `~/Documents/Cline/MCP` ディレクトリ（Windowsの場合は`%USERPROFILE%\Documents\Cline\MCP`）に以下のような設定ファイルを追加
 
@@ -96,7 +96,7 @@ npm start
     "timeout": 60,
     "command": "node",
     "args": [
-      "実際のパス/google-search-mcp/dist/index.js"
+      "/path/to/google-search-mcp/dist/index.js"
     ],
     "env": {
       "GOOGLE_API_KEY": "YOUR_GOOGLE_API_KEY",

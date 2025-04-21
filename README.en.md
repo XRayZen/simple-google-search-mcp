@@ -68,7 +68,7 @@ Cline is an autonomous coding agent for VS Code that natively supports integrati
 1. Clone and set up the Google Search MCP server:
 
 ```bash
-git clone https://github.com/yourusername/google-search-mcp.git
+git clone https://github.com/your-username/google-search-mcp.git
 cd google-search-mcp
 npm install
 ```
@@ -96,7 +96,7 @@ npm start
     "timeout": 60,
     "command": "node",
     "args": [
-      "actual-path/google-search-mcp/dist/index.js"
+      "/path/to/google-search-mcp/dist/index.js"
     ],
     "env": {
       "GOOGLE_API_KEY": "YOUR_GOOGLE_API_KEY",
